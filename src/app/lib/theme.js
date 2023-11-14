@@ -12,12 +12,11 @@ const styles = {
 const components = {
   Heading: {
     variants: {
-      'section-title': {
+      'home-section': {
         textDecoration: 'underline',
         fontSize: 20,
         textUnderlineOffset: 6,
         textDecorationColor: '#525252',
-        textDecorationThickness: 4,
         marginTop: 3,
         marginBottom: 4
       }
@@ -32,7 +31,8 @@ const components = {
 }
 
 const fonts = {
-  heading: "'M PLUS Rounded 1c'"
+  heading: "'M PLUS Rounded 1c'",
+  body: `'DM Sans', sans-serif`
 }
 
 const colors = {
