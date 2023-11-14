@@ -31,8 +31,8 @@ const components = {
 }
 
 const fonts = {
-  heading: "'M PLUS Rounded 1c'",
-  body: `'DM Sans', sans-serif`
+  heading: 'var(--font-geist-sans)',
+  body: 'var(--font-geist-mono)'
 }
 
 const colors = {
